@@ -30,6 +30,11 @@ public class DashboardController {
     {
         return "git testing";
     }
+    @GetMapping(value="/karthik")
+public String karthik;
+{
+        return "Wel come to karthik git";
+}
     @GetMapping("/stats")
     public DashboardStats getStats() {
         // 1. Counts
